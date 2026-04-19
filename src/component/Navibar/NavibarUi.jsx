@@ -10,7 +10,6 @@ import "./NavibarUi.css";
 export default function NavibarUi() {
   const navigate = useNavigate();
   const location = useLocation();
-  console.log('location is ',location)
 
   return (
     <nav className="nav-container">

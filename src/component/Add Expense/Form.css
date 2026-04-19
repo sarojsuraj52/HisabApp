@@ -1,0 +1,41 @@
+.form-container {
+  width: 100%;
+}
+
+.form-box section{
+    margin-bottom: 0.5rem;
+}
+
+.form-box {
+  display: flex;
+  padding: 1.5rem;
+  border: 1px solid blueviolet;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+ .button-s {
+  padding: 3px 7px;
+  margin: 5px;
+}
+.input-s{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.bg-orange-500 {
+  background-color: orange;
+  color: white;
+}
+
+
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
