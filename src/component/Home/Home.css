@@ -1,0 +1,52 @@
+.main-container {
+  padding-bottom: 70px; /* adjust based on navbar height */
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.header-box .notification {
+  margin: 1rem;
+}
+.summary-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.balance-card {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 850px;
+  width: 100%;
+  display: flex;
+  margin: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-box .card {
+  margin: 0 1.2rem;
+}
+.quick-add {
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.quick-add:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
