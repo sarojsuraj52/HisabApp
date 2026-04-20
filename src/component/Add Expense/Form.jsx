@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Form.css";
 
+
 const Form = () => {
   const [amount, setAmount] = useState("");
   const [category, setCategory] = useState("Food");
@@ -30,6 +31,7 @@ const Form = () => {
     };
 
     console.log("Expense Added:", data);
+    alert('Apka data save hua!')
   };
 
   return (
